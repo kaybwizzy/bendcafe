@@ -1293,6 +1293,47 @@ body.page-inner .nav-toggle span {
   max-width: 48ch;
 }
 
+.menu-subhead {
+  grid-column: 1 / -1;
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--terracotta);
+  padding-top: var(--space-4);
+  border-top: 1px solid var(--border);
+}
+
+.menu-list > .menu-subhead:first-child {
+  padding-top: 0;
+  border-top: none;
+}
+
+.menu-item--dual .menu-item-name {
+  font-size: 1.05rem;
+}
+
+.menu-item-tier {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.menu-item-tier strong {
+  color: var(--terracotta-dark);
+  font-variant-numeric: tabular-nums;
+  margin-left: 6px;
+}
+
+.add-item-btn--sm {
+  padding: 4px 10px;
+  font-size: 0.62rem;
+}
+
 /* Featured menu (home page) */
 
 .feature-card {

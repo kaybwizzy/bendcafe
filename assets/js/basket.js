@@ -4,7 +4,7 @@
 (function () {
   "use strict";
 
-  var WHATSAPP_NUMBER = "256700123456";
+  var WHATSAPP_NUMBER = "256777484799";
   var STORAGE_ITEMS = "bend25_basket_items";
   var STORAGE_NOTES = "bend25_basket_notes";
 
